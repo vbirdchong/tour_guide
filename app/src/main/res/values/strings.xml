@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <string name="category_historical_site">Historical Site</string>
+
+    <string name="category_restaurants">Restaurants</string>
+
+    <string name="category_event">Event</string>
+
+    <string name="category_traffic">Traffic</string>
+
+</resources>

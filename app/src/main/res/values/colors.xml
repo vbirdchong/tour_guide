@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_historical_site">#2979FF</color>
+
+    <color name="color_restaurants">#00B0FF</color>
+
+    <color name="color_event">#0288D1</color>
+
+    <color name="color_traffic">#B388FF</color>
+</resources>

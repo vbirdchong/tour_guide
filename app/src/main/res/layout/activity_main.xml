@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.cccho.tourguide.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/object_image_height"
+        android:src="@drawable/hangzhou"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/id_historical_site"
+        style="@style/TextCategoryStyle"
+        android:text="@string/category_historical_site"
+        android:background="@color/color_historical_site"/>
+
+    <TextView
+        android:id="@+id/id_restaurants"
+        style="@style/TextCategoryStyle"
+        android:text="@string/category_restaurants"
+        android:background="@color/color_restaurants"/>
+
+    <TextView
+        android:id="@+id/id_event"
+        style="@style/TextCategoryStyle"
+        android:text="@string/category_event"
+        android:background="@color/color_event" />
+
+    <TextView
+        android:id="@+id/id_traffic"
+        style="@style/TextCategoryStyle"
+        android:text="@string/category_traffic"
+        android:background="@color/color_traffic"/>
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D1C4E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sudi"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Spring Dawn at Sudi Causeway"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#CFD8DC"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:src="@drawable/leifengta"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Sunset Glow over Leifeng Hill"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#CFD8DC"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:src="@drawable/duanqiao"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Melting Snow at Broken Bridge"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#CFD8DC"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:src="@drawable/xihuyinxiang"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Autumn Moon on Calm Lake"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#CFD8DC"/>
+    </LinearLayout>
+
+</LinearLayout>
