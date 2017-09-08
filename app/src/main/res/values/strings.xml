@@ -12,11 +12,14 @@
 
     <!--historical site string info list-->
     <string name="string_historical_site_duanqiao">Melting Snow at Broken Bridge</string>
-
     <string name="string_historical_site_sudi">Spring Dawn at Sudi Causeway</string>
-
     <string name="string_historical_site_leifenta">Sunset Glow over Leifeng Hill</string>
-
     <string name="string_historical_site_xihuyinxiang">Autumn Moon on Calm Lake</string>
+
+    <!--restaurants string info list-->
+    <string name="string_restaurants_grandma">Grandma\n Since from 1998</string>
+    <string name="string_restaurants_louwailou">Lou Wailou\n Since from 1848</string>
+    <string name="string_restaurants_zhiweiguan">Zhi weiguan\n Since from 1913</string>
+    <string name="string_restaurants_hangzhourestaurant">Hang Zhou Restaurant\n Since from 1921</string>
 
 </resources>

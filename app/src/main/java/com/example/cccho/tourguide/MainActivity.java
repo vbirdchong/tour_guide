@@ -13,12 +13,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final TextView historicalSite = (TextView) findViewById(R.id.id_historical_site);
+        TextView historicalSite = (TextView) findViewById(R.id.id_historical_site);
         historicalSite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent historicalSiteIntent = new Intent(MainActivity.this, HistoricalsiteActivity.class);
                 startActivity(historicalSiteIntent);
+            }
+        });
+
+        TextView restaurants = (TextView) findViewById(R.id.id_restaurants);
+        restaurants.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantsActivity.class);
+                startActivity(restaurantsIntent);
             }
         });
     }
