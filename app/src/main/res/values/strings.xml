@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
+    <!--category string info list-->
     <string name="category_historical_site">Historical Site</string>
 
     <string name="category_restaurants">Restaurants</string>
@@ -8,5 +9,14 @@
     <string name="category_event">Event</string>
 
     <string name="category_traffic">Traffic</string>
+
+    <!--historical site string info list-->
+    <string name="string_historical_site_duanqiao">Melting Snow at Broken Bridge</string>
+
+    <string name="string_historical_site_sudi">Spring Dawn at Sudi Causeway</string>
+
+    <string name="string_historical_site_leifenta">Sunset Glow over Leifeng Hill</string>
+
+    <string name="string_historical_site_xihuyinxiang">Autumn Moon on Calm Lake</string>
 
 </resources>
