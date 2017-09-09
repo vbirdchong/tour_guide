@@ -30,5 +30,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(restaurantsIntent);
             }
         });
+
+        TextView events = (TextView) findViewById(R.id.id_event);
+        events.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent eventIntent = new Intent(MainActivity.this, EventActivity.class);
+                startActivity(eventIntent);
+            }
+        });
+
+        TextView traffic = (TextView) findViewById(R.id.id_traffic);
+        traffic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent trafficIntent = new Intent(MainActivity.this, TrafficActivity.class);
+                startActivity(trafficIntent);
+            }
+        });
     }
 }

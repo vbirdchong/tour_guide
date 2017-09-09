@@ -16,8 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HistoricalsiteActivity" />
-        <activity android:name=".RestaurantsActivity"></activity>
+        <activity android:name=".HistoricalsiteActivity"
+            android:label="@string/category_historical_site"/>
+        <activity android:name=".RestaurantsActivity"
+            android:label="@string/category_restaurants"/>
+        <activity android:name=".EventActivity"
+            android:label="@string/category_event"/>
+        <activity android:name=".TrafficActivity"
+            android:label="@string/category_traffic"></activity>
     </application>
 
 </manifest>

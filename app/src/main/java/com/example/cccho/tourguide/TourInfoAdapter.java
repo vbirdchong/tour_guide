@@ -32,6 +32,11 @@ public class TourInfoAdapter extends ArrayAdapter<TourInfo> {
         TextView tourInfoText = (TextView) listItemView.findViewById(R.id.id_tour_info_text);
         tourInfoText.setText(tourInfo.getBaseTourInfo());
 
+        TextView tourAdditionalInfoText = (TextView) listItemView.findViewById(R.id.id_tour_addition_info_text);
+        if (tourInfo.hasAdditionalInfo()) {
+            tourAdditionalInfoText.setText(tourInfo.getAdditionalInfo());
+        }
+
         ImageView tourInfoImage = (ImageView) listItemView.findViewById(R.id.id_tour_info_image);
         if (tourInfo.hasImageResource()) {
             tourInfoImage.setImageResource(tourInfo.getImageId());

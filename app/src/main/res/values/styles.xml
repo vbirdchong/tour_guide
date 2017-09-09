@@ -13,12 +13,34 @@
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">@dimen/category_text_padding</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
         <item name="android:drawSelectorOnTop">true</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="ItemTextInfoStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/text_info_height_val</item>
+        <item name="android:textSize">@dimen/item_info_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/text_info_padding_val</item>
+        <item name="android:paddingLeft">@dimen/text_info_padding_val</item>
+        <item name="android:paddingRight">@dimen/text_info_padding_val</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="ItemTextAddInfoStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/text_info_height_val</item>
+        <item name="android:textSize">@dimen/item_add_info_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">@dimen/text_info_padding_val</item>
+        <item name="android:paddingRight">@dimen/text_info_padding_val</item>
+        <item name="android:paddingBottom">@dimen/text_info_padding_val</item>
+        <item name="android:gravity">top</item>
     </style>
 
 </resources>

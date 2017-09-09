@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--main activity's image height-->
     <dimen name="object_image_height">160dp</dimen>
 
+    <!--category info padding value-->
+    <dimen name="category_text_padding">16dp</dimen>
+
+    <!--image scope value for each activity list-->
+    <dimen name="item_image_width">180dp</dimen>
+    <dimen name="item_image_height">120dp</dimen>
+
+    <!--the major height for the text-->
+    <dimen name="item_text_height">120dp</dimen>
+
+    <!--text size-->
+    <dimen name="category_text_size">18sp</dimen>
+    <dimen name="item_info_text_size">16sp</dimen>
+    <dimen name="item_add_info_text_size">14sp</dimen>
+
+    <!--text info padding value-->
+    <dimen name="text_info_padding_val">8dp</dimen>
+
+    <!--text info height value-->
+    <dimen name="text_info_height_val">60dp</dimen>
 </resources>

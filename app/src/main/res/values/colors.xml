@@ -11,4 +11,6 @@
     <color name="color_event">#0288D1</color>
 
     <color name="color_traffic">#B388FF</color>
+
+    <color name="list_item_background">#CFD8DC</color>
 </resources>

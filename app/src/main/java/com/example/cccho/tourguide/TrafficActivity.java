@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class HistoricalsiteActivity extends AppCompatActivity {
+public class TrafficActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,10 +14,17 @@ public class HistoricalsiteActivity extends AppCompatActivity {
         setContentView(R.layout.info_list);
 
         final ArrayList<TourInfo> tourInfos = new ArrayList<TourInfo>();
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_duanqiao), null, R.drawable.duanqiao));
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_leifenta), null, R.drawable.leifengta));
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_sudi), null, R.drawable.sudi));
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_xihuyinxiang), null, R.drawable.xihuyinxiang));
+        tourInfos.add(new TourInfo(getString(R.string.string_traffic_airport),
+                getString(R.string.string_traffic_airport_addtion),
+                R.drawable.airport));
+
+        tourInfos.add(new TourInfo(getString(R.string.string_traffic_railway),
+                getString(R.string.string_traffic_railway_addtion),
+                R.drawable.railway_station));
+
+        tourInfos.add(new TourInfo(getString(R.string.string_traffic_metro),
+                getString(R.string.string_traffic_metro_addtion),
+                R.drawable.metro));
 
         TourInfoAdapter tourInfoAdapter = new TourInfoAdapter(this, tourInfos);
         ListView listView = (ListView) findViewById(R.id.id_info_list);

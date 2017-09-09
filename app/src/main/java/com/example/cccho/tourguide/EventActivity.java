@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class HistoricalsiteActivity extends AppCompatActivity {
+public class EventActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,10 +14,13 @@ public class HistoricalsiteActivity extends AppCompatActivity {
         setContentView(R.layout.info_list);
 
         final ArrayList<TourInfo> tourInfos = new ArrayList<TourInfo>();
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_duanqiao), null, R.drawable.duanqiao));
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_leifenta), null, R.drawable.leifengta));
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_sudi), null, R.drawable.sudi));
-        tourInfos.add(new TourInfo(getString(R.string.string_historical_site_xihuyinxiang), null, R.drawable.xihuyinxiang));
+        tourInfos.add(new TourInfo(getString(R.string.string_event_g20),
+                getString(R.string.string_event_g20_addtion),
+                R.drawable.g20));
+
+        tourInfos.add(new TourInfo(getString(R.string.string_event_marathon),
+                getString(R.string.string_event_marathon_addtion),
+                R.drawable.marathon));
 
         TourInfoAdapter tourInfoAdapter = new TourInfoAdapter(this, tourInfos);
         ListView listView = (ListView) findViewById(R.id.id_info_list);

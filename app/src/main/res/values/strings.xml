@@ -3,11 +3,8 @@
 
     <!--category string info list-->
     <string name="category_historical_site">Historical Site</string>
-
     <string name="category_restaurants">Restaurants</string>
-
     <string name="category_event">Event</string>
-
     <string name="category_traffic">Traffic</string>
 
     <!--historical site string info list-->
@@ -17,9 +14,26 @@
     <string name="string_historical_site_xihuyinxiang">Autumn Moon on Calm Lake</string>
 
     <!--restaurants string info list-->
-    <string name="string_restaurants_grandma">Grandma\n Since from 1998</string>
-    <string name="string_restaurants_louwailou">Lou Wailou\n Since from 1848</string>
-    <string name="string_restaurants_zhiweiguan">Zhi weiguan\n Since from 1913</string>
-    <string name="string_restaurants_hangzhourestaurant">Hang Zhou Restaurant\n Since from 1921</string>
+    <string name="string_restaurants_grandma">Grandma</string>
+    <string name="string_restaurants_grandma_addtion">Since from 1998</string>
+    <string name="string_restaurants_louwailou">Lou Wailou</string>
+    <string name="string_restaurants_louwailou_addtion">Since from 1848</string>
+    <string name="string_restaurants_zhiweiguan">Zhi Weiguan</string>
+    <string name="string_restaurants_zhiweiguan_addtion">Since from 1913</string>
+    <string name="string_restaurants_hangzhourestaurant">Hang Zhou Restaurant</string>
+    <string name="string_restaurants_hangzhourestaurant_addtion">Since from 1921</string>
 
+    <!--event string info list-->
+    <string name="string_event_g20">G20</string>
+    <string name="string_event_g20_addtion">Hangzhou host the 11th G20 Summit in 2016</string>
+    <string name="string_event_marathon">Marathon</string>
+    <string name="string_event_marathon_addtion">Hangzhou International Marathon since from 1987</string>
+
+    <!--traffic string info list-->
+    <string name="string_traffic_airport">Xiaoshan International Airport</string>
+    <string name="string_traffic_airport_addtion">This is the principal airport serving Hangzhou</string>
+    <string name="string_traffic_railway">East Railway Station</string>
+    <string name="string_traffic_railway_addtion">It is one of the biggest rail traffic hubs in China</string>
+    <string name="string_traffic_metro">Metro</string>
+    <string name="string_traffic_metro_addtion">It began construction in Mar. 2006, and the 1st line opened on Nov.24, 2012</string>
 </resources>
